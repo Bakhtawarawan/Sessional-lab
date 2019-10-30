@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="form2.css">
+</head>
+<body>
+        <script>
+                function insert(){
+                    document.forms['Record'].action='insert.php';
+                    document.forms['Record'].submit();
+            
+                }
+                function delete(){
+                    document.forms['Record'].action='delete.php';
+                    document.forms['Record'].submit();
+            
+                }
+                function update(){
+                    document.forms['Record'].action='update.php';
+                    document.forms['Record'].submit();
+            
+                }
+                </script>
+                </div>
+	<div class="div1">
+		
+<h2>Student information</h2>
+		<form  name="Record" action="insert.php" method="POST">
+
+			<p>stdname: <input type="text" name="stdame" style="margin-left: 0px"></p>
+			
+			<p>stdfathername: <input type="text" name="fathername" size="10"></p>
+            <p>stdemail: <input type="text" name="email" size="50"></p>
+            <p>MobileNo: <input type="text" name="Phone_No" size="15" style="margin-left: 0px">
+            <br></br>
+			<input type="submit" value="RS" onclick="insert();"/>
+			<input type="button" value="DS" onclick="delete();"/>
+            <input type="button" value="US" onclick="update();"/>
+            
+        </form>
+    </div>
+</body>
+</html>

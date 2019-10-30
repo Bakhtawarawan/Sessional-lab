@@ -1,0 +1,48 @@
+div{
+    float: left;
+    width: auto;
+}
+h2{
+    text-align:center;
+    color: brown;
+}
+text{
+    padding-left: 10%
+}
+.div1{
+    float: left;
+    margin-top: 100px; 
+}
+.div2{
+    size: 100px;
+    margin: 50px;
+    float: left;
+    text-align: center;
+}
+.div3 { 
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: center; 
+    
+}
+.div4{
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(11, 11, 241) , white);
+    float: left;
+    color: white;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+}
+td{
+    padding-right: 100%
+}
+button{
+    width: 100%;
+    border: 1px solid blue;
+    margin-bottom: 1px;
+}
+h4{
+    color: brown;
+}
